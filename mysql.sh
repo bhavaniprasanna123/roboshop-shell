@@ -8,4 +8,4 @@ systemctl enable mysqld &>>$log_file
 systemctl start mysqld &>>$log_file
 
 print_head Setup Root Password
-mysql_secure_installation --set-root-pass RoboShop@1 &>>$log_file
+ mysql_secure_installation --set-root-pass RoboShop@1 &>>$log_file
